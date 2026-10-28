@@ -1,0 +1,33 @@
+import { readFileSync, writeFileSync, mkdirSync, copyFileSync, rmSync } from 'node:fs';
+import { validateData, validateResearchData, escapeHTML as e, toCSV } from '../src/catalog.mjs';
+const archive = JSON.parse(readFileSync('data/lots.json', 'utf8'));
+const research = JSON.parse(readFileSync('data/research.json', 'utf8'));
+validateData(archive);
+validateResearchData(research, archive);
+const records = [...archive.records.map(r => ({...r, origin:'archive'})), ...research.records].sort((a,b) => a.domain.localeCompare(b.domain));
+const catalog = {name:'Living Off Trusted Sites — maintained reference', archive_snapshot:archive.snapshot, research_reviewed_on:research.reviewed_on, note:'Historical service-abuse reference, not an active IOC feed or blocklist. Archive data has no identified license; see THIRD_PARTY_DATA.md.', records};
+const providers = [...new Set(records.map(r => r.provider))].sort((a,b) => a.localeCompare(b));
+const tags = ['Phishing', 'C&C', 'Exfiltration', 'Download'];
+const slug = record => Buffer.from(record.domain).toString('hex');
+const tagLinks = record => record.tags.map(tag => `<a class="tag" data-tag="${e(tag)}" href="./?q=${encodeURIComponent('+' + tag)}">${e(tag)}</a>`).join('');
+const rows = records.map(record => `<tr data-domain="${e(record.domain)}"><td><a class="domain" data-record href="./site/${slug(record)}.html">${e(record.domain)}</a>${record.origin === 'research' ? ' <span class="origin-note">(new)</span>' : ''}</td><td><div class="tags">${tagLinks(record)}</div></td><td><a class="provider" data-provider-filter="${e(record.provider)}" href="./?provider=${encodeURIComponent(record.provider)}">${e(record.provider)}</a></td></tr>`).join('\n');
+const chips = tags.map(tag => `<a class="category" data-category="${e(tag)}" href="./?q=${encodeURIComponent('+' + tag)}"><span class="category-name">${e(tag)}</span></a>`).join('');
+const evidence = record => `<h2>Evidence</h2><ul>${record.sources.map(s => `<li><a href="${e(s.url)}">${e(s.title)}</a> — ${e(s.publisher)}, <time datetime="${s.published}">${s.published}</time></li>`).join('')}</ul><p><strong>Reported activity:</strong> ${e(record.observed_window)}</p><p><strong>Domain scope:</strong> ${e(record.domain_basis)}${record.domain_reference ? ` <a href="${e(record.domain_reference.url)}">Provider documentation</a>.` : ''}</p><p><strong>Status:</strong> ${e(record.activity_status)}. Reviewed ${record.reviewed_on}.</p><h2>Hunting ideas</h2><p>Analyst hypotheses; not tested detection rules.</p><ul>${record.hunting_notes.map(n => `<li>${e(n)}</li>`).join('')}</ul>`;
+rmSync('dist', {recursive:true, force:true});
+mkdirSync('dist/data', {recursive:true});
+mkdirSync('dist/site', {recursive:true});
+const recordJSON = JSON.stringify(records).replaceAll('<', '\\u003c');
+const html = readFileSync('src/index.html','utf8').replace('<!-- ROWS -->', rows).replace('<!-- RECORD_DATA -->', `<script id="record-data" type="application/json">${recordJSON}</script>`).replace('<!-- CATEGORIES -->', chips).replace('<!-- PROVIDERS -->', providers.map(p => `<option value="${e(p)}">${e(p)}</option>`).join('')).replaceAll('{{COUNT}}', String(records.length)).replaceAll('{{PROVIDERS}}', String(providers.length)).replaceAll('{{RESEARCH_COUNT}}', String(research.records.length));
+writeFileSync('dist/index.html', html);
+for (const record of records) {
+  const isResearch = record.origin === 'research';
+  const source = isResearch ? evidence(record) : `<p>Tags and provider are preserved from the saved LOTS index dated October 6, 2026. Individual detail pages were not included in the ZIP; Wayback availability may vary.</p><p><a href="${e(record.archive_url)}">Original LOTS detail page on Wayback</a></p>`;
+  writeFileSync(`dist/site/${slug(record)}.html`, `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>${e(record.domain)} — LOTS</title><link rel="stylesheet" href="../style.css"></head><body><header><div class="header-inner"><a class="wordmark" href="../">LOTS</a><a href="../">Domain index</a></div></header><main class="record-page"><p class="snapshot">${isResearch ? `New addition · reviewed ${record.reviewed_on}` : 'Original LOTS archive · October 6, 2026'}</p><h1>${e(record.domain)}</h1><dl><dt>Provider</dt><dd><a href="../?provider=${encodeURIComponent(record.provider)}">${e(record.provider)}</a></dd><dt>Tags</dt><dd>${e(record.tags.join(' · '))}</dd><dt>Entry type</dt><dd>${record.domain.startsWith('*.') ? 'Subdomains' : 'Hostname'}</dd></dl>${isResearch ? `<p>${e(record.summary)}</p>` : ''}${source}<p>Inclusion does not mean the domain or its current operator is malicious. Investigate specific accounts, URLs, and behavior before taking action.</p><p><a href="../?q=${encodeURIComponent(record.domain)}">Find in index</a> · <a href="../data/catalog.json" download>Download combined JSON</a></p></main></body></html>`);
+}
+for (const file of ['style.css','app.js','catalog.mjs']) copyFileSync(`src/${file}`, `dist/${file}`);
+for (const file of ['lots.json','research.json']) copyFileSync(`data/${file}`, `dist/data/${file}`);
+writeFileSync('dist/data/catalog.json', JSON.stringify(catalog,null,2) + '\n');
+writeFileSync('dist/data/lots.csv', toCSV(records));
+for (const file of ['LICENSE','THIRD_PARTY_DATA.md']) copyFileSync(file, `dist/${file}`);
+writeFileSync('dist/.nojekyll','');
+console.log(`Built ${records.length} records (${archive.records.length} archived + ${research.records.length} researched), ${providers.length} providers, and static detail pages in dist/`);

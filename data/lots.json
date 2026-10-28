@@ -1,0 +1,1799 @@
+{
+  "name": "Living Off Trusted Sites (LOTS) Project",
+  "snapshot": "2026-10-06",
+  "source": "https://web.archive.org/web/20261006184331/https://lots-project.com/",
+  "provenance": {
+    "archive_file": "web.archive.org.zip",
+    "archive_sha256": "2dd4603e05cc05ccc7dfa081c01484cf36ba0a368d3bf35fd3a38b12dc868f71",
+    "html_member": "web.archive.org/web/20261006184331/https.html",
+    "html_sha256": "cf4280c8ef8d594acd62694e203b4cd13924e42316c6af18c96c5b40b07f16c4"
+  },
+  "list": [
+    "raw.githubusercontent.com",
+    "github.com",
+    "1drv.ms",
+    "1drv.com",
+    "docs.google.com",
+    "drive.google.com",
+    "*.azurewebsites.net",
+    "dropbox.com",
+    "mega.nz",
+    "pcloud.com",
+    "*.amazonaws.com",
+    "*.twitter.com",
+    "*.web.core.windows.net",
+    "*.blob.core.windows.net",
+    "*.box.com",
+    "sites.google.com",
+    "*.cloudfront.net",
+    "bitbucket.io",
+    "bitbucket.org",
+    "firebasestorage.googleapis.com",
+    "storage.googleapis.com",
+    "*.herokuapp.com",
+    "*.zendesk.com",
+    "*.cloudwaysapps.com",
+    "*.netlify.app",
+    "*.cloudapp.azure.com",
+    "*.cloudapp.net",
+    "gitlab.com",
+    "filetransfer.io",
+    "*.sendspace.com",
+    "wetransfer.com",
+    "cdn.fbsbx.com",
+    "mediafire.com",
+    "cdn.discordapp.com",
+    "*.workers.dev",
+    "slack-files.com",
+    "youtube.com",
+    "reddit.com",
+    "pastebin.com",
+    "*.sharepoint.com",
+    "onedrive.live.com",
+    "app.milanote.com",
+    "*.appspot.com",
+    "*.wordpress.com",
+    "*.azureedge.net",
+    "*.tumblr.com",
+    "*.backblazeb2.com",
+    "*.blogspot.com",
+    "*.translate.goog",
+    "*.googleusercontent.com",
+    "*.typeform.com",
+    "*.github.io",
+    "*.web.app",
+    "*.firebaseapp.com",
+    "*.webflow.io",
+    "icloud.com",
+    "*.duckdns.org",
+    "*.pages.dev",
+    "googleweblight.com",
+    "forms.office.com",
+    "sway.office.com",
+    "discord.com",
+    "slack.com",
+    "api.telegram.org",
+    "*.gofile.io",
+    "*.instagram.com",
+    "facebook.com",
+    "*.glitch.me",
+    "bit.ly",
+    "*.trycloudflare.com",
+    "beautiful.ai",
+    "siasky.net",
+    "*.clickfunnels.com",
+    "*.docusign.com",
+    "*.digitaloceanspaces.com",
+    "*.godaddysites.com",
+    "*.weebly.com",
+    "www.canva.com",
+    "t.co",
+    "*.mybluemix.net",
+    "appdomain.cloud",
+    "archive.org",
+    "spark.adobe.com",
+    "*.atlassian.net",
+    "dogechain.info",
+    "paste.ee",
+    "gitee.com",
+    "*.rf.gd",
+    "viewer.joomag.com",
+    "my.visme.co",
+    "archive.ph",
+    "docsend.com",
+    "*.nimbusweb.me",
+    "*.oraclecloud.com",
+    "*.azurefd.net",
+    "parg.co",
+    "*.ngrok.io",
+    "codepen.io",
+    "pastetext.net",
+    "notion.so",
+    "*.wixsite.com",
+    "attachment.outlook.live.net",
+    "attachments.office.net",
+    "lnkd.in",
+    "*.myportfolio.com",
+    "*.notion.site",
+    "*.wasabisys.com",
+    "rebrand.ly",
+    "rb.gy",
+    "genius.com",
+    "inmotionhosting.com",
+    "stonly.com",
+    "*.csb.app",
+    "*.codesandbox.io",
+    "*.000webhostapp.com",
+    "*.hostingerapp.com",
+    "feedproxy.google.com",
+    "*.pagecloud.com",
+    "*.format.com",
+    "s.id",
+    "doc.clickup.com",
+    "ufile.io",
+    "onenoteonlinesync.onenote.com",
+    "12ft.io",
+    "*.doubleclick.net",
+    "t.m1.email.samsung.com",
+    "*.repl.co",
+    "teletype.in",
+    "*.easywp.com",
+    "telegra.ph",
+    "filebin.net",
+    "*.fyi.to",
+    "nt.embluemail.com",
+    "transfer.sh",
+    "ct.sendgrid.net",
+    "nethunt.com",
+    "trello.com",
+    "evernote.com",
+    "track.adform.net",
+    "*.xiti.com",
+    "wtools.io",
+    "i.imgur.com",
+    "workflowy.com",
+    "*.mybluehost.me",
+    "*.ondigitalocean.app",
+    "*.axshare.com",
+    "rentry.co",
+    "zerobin.net",
+    "textbin.net",
+    "ideone.com",
+    "4sync.com",
+    "pastebin.pl",
+    "www.uplooder.net",
+    "graph.microsoft.com",
+    "pastie.org",
+    "*.slab.com",
+    "*.dropmark.com",
+    "filecloudonline.com",
+    "tinyurl.com",
+    "*.azurestaticapps.net",
+    "termbin.com",
+    "sprunge.us",
+    "*.plesk.page",
+    "cutt.ly",
+    "*.on.aws",
+    "*.mystrikingly.com",
+    "www.surveycake.com",
+    "anonfiles.com",
+    "*.linodeobjects.com",
+    "express.adobe.com",
+    "*.fleek.co",
+    "localhost.run",
+    "*.requestbin.net",
+    "clbin.com",
+    "ix.io"
+  ],
+  "records": [
+    {
+      "domain": "raw.githubusercontent.com",
+      "tags": [
+        "Phishing",
+        "C&C",
+        "Download"
+      ],
+      "provider": "Github",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/7261772e67697468756275736572636f6e74656e742e636f6d"
+    },
+    {
+      "domain": "github.com",
+      "tags": [
+        "Phishing",
+        "Download"
+      ],
+      "provider": "Github",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/6769746875622e636f6d"
+    },
+    {
+      "domain": "1drv.ms",
+      "tags": [
+        "Phishing"
+      ],
+      "provider": "Microsoft",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/316472762e6d73"
+    },
+    {
+      "domain": "1drv.com",
+      "tags": [
+        "Phishing",
+        "Download"
+      ],
+      "provider": "Microsoft",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/316472762e636f6d"
+    },
+    {
+      "domain": "docs.google.com",
+      "tags": [
+        "Phishing",
+        "C&C"
+      ],
+      "provider": "Google",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/646f63732e676f6f676c652e636f6d"
+    },
+    {
+      "domain": "drive.google.com",
+      "tags": [
+        "Phishing",
+        "Download",
+        "Exfiltration"
+      ],
+      "provider": "Google",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/64726976652e676f6f676c652e636f6d"
+    },
+    {
+      "domain": "*.azurewebsites.net",
+      "tags": [
+        "Phishing",
+        "Download",
+        "Exfiltration",
+        "C&C"
+      ],
+      "provider": "Microsoft",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e617a75726577656273697465732e6e6574"
+    },
+    {
+      "domain": "dropbox.com",
+      "tags": [
+        "Phishing",
+        "Download",
+        "Exfiltration",
+        "C&C"
+      ],
+      "provider": "Dropbox",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/64726f70626f782e636f6d"
+    },
+    {
+      "domain": "mega.nz",
+      "tags": [
+        "Phishing",
+        "Download",
+        "Exfiltration"
+      ],
+      "provider": "Mega Limited",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/6d6567612e6e7a"
+    },
+    {
+      "domain": "pcloud.com",
+      "tags": [
+        "Phishing",
+        "Download",
+        "Exfiltration"
+      ],
+      "provider": "pCloud",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/70636c6f75642e636f6d"
+    },
+    {
+      "domain": "*.amazonaws.com",
+      "tags": [
+        "Phishing",
+        "Download",
+        "Exfiltration",
+        "C&C"
+      ],
+      "provider": "Amazon Web Services",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e616d617a6f6e6177732e636f6d"
+    },
+    {
+      "domain": "*.twitter.com",
+      "tags": [
+        "C&C"
+      ],
+      "provider": "Twitter",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e747769747465722e636f6d"
+    },
+    {
+      "domain": "*.web.core.windows.net",
+      "tags": [
+        "Phishing",
+        "Download",
+        "Exfiltration",
+        "C&C"
+      ],
+      "provider": "Microsoft",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e7765622e636f72652e77696e646f77732e6e6574"
+    },
+    {
+      "domain": "*.blob.core.windows.net",
+      "tags": [
+        "Phishing",
+        "Download",
+        "Exfiltration"
+      ],
+      "provider": "Microsoft",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e626c6f622e636f72652e77696e646f77732e6e6574"
+    },
+    {
+      "domain": "*.box.com",
+      "tags": [
+        "Phishing",
+        "Download",
+        "Exfiltration"
+      ],
+      "provider": "Box",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e626f782e636f6d"
+    },
+    {
+      "domain": "sites.google.com",
+      "tags": [
+        "Phishing"
+      ],
+      "provider": "Google",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/73697465732e676f6f676c652e636f6d"
+    },
+    {
+      "domain": "*.cloudfront.net",
+      "tags": [
+        "Phishing",
+        "C&C",
+        "Download"
+      ],
+      "provider": "Amazon Web Services",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e636c6f756466726f6e742e6e6574"
+    },
+    {
+      "domain": "bitbucket.io",
+      "tags": [
+        "Phishing"
+      ],
+      "provider": "Atlassian",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/6269746275636b65742e696f"
+    },
+    {
+      "domain": "bitbucket.org",
+      "tags": [
+        "Phishing",
+        "Download",
+        "Exfiltration",
+        "C&C"
+      ],
+      "provider": "Atlassian",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/6269746275636b65742e6f7267"
+    },
+    {
+      "domain": "firebasestorage.googleapis.com",
+      "tags": [
+        "Phishing",
+        "Exfiltration",
+        "C&C",
+        "Download"
+      ],
+      "provider": "Google",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/666972656261736573746f726167652e676f6f676c65617069732e636f6d"
+    },
+    {
+      "domain": "storage.googleapis.com",
+      "tags": [
+        "Phishing",
+        "Download",
+        "Exfiltration",
+        "C&C"
+      ],
+      "provider": "Google",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/73746f726167652e676f6f676c65617069732e636f6d"
+    },
+    {
+      "domain": "*.herokuapp.com",
+      "tags": [
+        "Phishing",
+        "Download",
+        "Exfiltration",
+        "C&C"
+      ],
+      "provider": "Heroku",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e6865726f6b756170702e636f6d"
+    },
+    {
+      "domain": "*.zendesk.com",
+      "tags": [
+        "Phishing",
+        "Download"
+      ],
+      "provider": "Zendesk",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e7a656e6465736b2e636f6d"
+    },
+    {
+      "domain": "*.cloudwaysapps.com",
+      "tags": [
+        "Phishing",
+        "Download",
+        "Exfiltration",
+        "C&C"
+      ],
+      "provider": "Cloudways",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e636c6f756477617973617070732e636f6d"
+    },
+    {
+      "domain": "*.netlify.app",
+      "tags": [
+        "Phishing"
+      ],
+      "provider": "Netlify",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e6e65746c6966792e617070"
+    },
+    {
+      "domain": "*.cloudapp.azure.com",
+      "tags": [
+        "Phishing",
+        "Download",
+        "Exfiltration",
+        "C&C"
+      ],
+      "provider": "Microsoft",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e636c6f75646170702e617a7572652e636f6d"
+    },
+    {
+      "domain": "*.cloudapp.net",
+      "tags": [
+        "Phishing",
+        "Download",
+        "Exfiltration",
+        "C&C"
+      ],
+      "provider": "Microsoft",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e636c6f75646170702e6e6574"
+    },
+    {
+      "domain": "gitlab.com",
+      "tags": [
+        "Phishing",
+        "Download"
+      ],
+      "provider": "GitLab",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/6769746c61622e636f6d"
+    },
+    {
+      "domain": "filetransfer.io",
+      "tags": [
+        "Phishing",
+        "Download",
+        "Exfiltration"
+      ],
+      "provider": "Filetransfer.io",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/66696c657472616e736665722e696f"
+    },
+    {
+      "domain": "*.sendspace.com",
+      "tags": [
+        "Phishing",
+        "Download",
+        "Exfiltration"
+      ],
+      "provider": "Sendspace",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e73656e6473706163652e636f6d"
+    },
+    {
+      "domain": "wetransfer.com",
+      "tags": [
+        "Phishing",
+        "Download",
+        "Exfiltration"
+      ],
+      "provider": "WeTransfer B.V",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/77657472616e736665722e636f6d"
+    },
+    {
+      "domain": "cdn.fbsbx.com",
+      "tags": [
+        "Phishing"
+      ],
+      "provider": "Facebook",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/63646e2e66627362782e636f6d"
+    },
+    {
+      "domain": "mediafire.com",
+      "tags": [
+        "Phishing",
+        "Download",
+        "Exfiltration"
+      ],
+      "provider": "Mediafire",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/6d65646961666972652e636f6d"
+    },
+    {
+      "domain": "cdn.discordapp.com",
+      "tags": [
+        "Phishing",
+        "Download"
+      ],
+      "provider": "Discord",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/63646e2e646973636f72646170702e636f6d"
+    },
+    {
+      "domain": "*.workers.dev",
+      "tags": [
+        "Phishing",
+        "Download",
+        "Exfiltration",
+        "C&C"
+      ],
+      "provider": "Cloudflare",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e776f726b6572732e646576"
+    },
+    {
+      "domain": "slack-files.com",
+      "tags": [
+        "Phishing"
+      ],
+      "provider": "Slack",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/736c61636b2d66696c65732e636f6d"
+    },
+    {
+      "domain": "youtube.com",
+      "tags": [
+        "Phishing",
+        "C&C"
+      ],
+      "provider": "Google",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/796f75747562652e636f6d"
+    },
+    {
+      "domain": "reddit.com",
+      "tags": [
+        "C&C"
+      ],
+      "provider": "Reddit",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/7265646469742e636f6d"
+    },
+    {
+      "domain": "pastebin.com",
+      "tags": [
+        "Download",
+        "Exfiltration",
+        "C&C"
+      ],
+      "provider": "Pastebin",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/706173746562696e2e636f6d"
+    },
+    {
+      "domain": "*.sharepoint.com",
+      "tags": [
+        "Phishing",
+        "Download"
+      ],
+      "provider": "Microsoft",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e7368617265706f696e742e636f6d"
+    },
+    {
+      "domain": "onedrive.live.com",
+      "tags": [
+        "Phishing"
+      ],
+      "provider": "Microsoft",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/6f6e6564726976652e6c6976652e636f6d"
+    },
+    {
+      "domain": "app.milanote.com",
+      "tags": [
+        "Phishing"
+      ],
+      "provider": "Milanote",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/6170702e6d696c616e6f74652e636f6d"
+    },
+    {
+      "domain": "*.appspot.com",
+      "tags": [
+        "Phishing",
+        "Download",
+        "C&C"
+      ],
+      "provider": "Google",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e61707073706f742e636f6d"
+    },
+    {
+      "domain": "*.wordpress.com",
+      "tags": [
+        "Phishing",
+        "Download",
+        "C&C",
+        "Exfiltration"
+      ],
+      "provider": "Wordpress Foundation",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e776f726470726573732e636f6d"
+    },
+    {
+      "domain": "*.azureedge.net",
+      "tags": [
+        "Phishing",
+        "C&C"
+      ],
+      "provider": "Microsoft",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e617a757265656467652e6e6574"
+    },
+    {
+      "domain": "*.tumblr.com",
+      "tags": [
+        "Phishing",
+        "C&C"
+      ],
+      "provider": "Tumblr",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e74756d626c722e636f6d"
+    },
+    {
+      "domain": "*.backblazeb2.com",
+      "tags": [
+        "Phishing",
+        "Download",
+        "Exfiltration"
+      ],
+      "provider": "BackBlaze",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e6261636b626c617a6562322e636f6d"
+    },
+    {
+      "domain": "*.blogspot.com",
+      "tags": [
+        "Phishing",
+        "C&C"
+      ],
+      "provider": "Google",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e626c6f6773706f742e636f6d"
+    },
+    {
+      "domain": "*.translate.goog",
+      "tags": [
+        "Phishing",
+        "Download"
+      ],
+      "provider": "Google",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e7472616e736c6174652e676f6f67"
+    },
+    {
+      "domain": "*.googleusercontent.com",
+      "tags": [
+        "Phishing",
+        "C&C"
+      ],
+      "provider": "Google",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e676f6f676c6575736572636f6e74656e742e636f6d"
+    },
+    {
+      "domain": "*.typeform.com",
+      "tags": [
+        "Phishing"
+      ],
+      "provider": "Typeform",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e74797065666f726d2e636f6d"
+    },
+    {
+      "domain": "*.github.io",
+      "tags": [
+        "Phishing"
+      ],
+      "provider": "Github",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e6769746875622e696f"
+    },
+    {
+      "domain": "*.web.app",
+      "tags": [
+        "Phishing"
+      ],
+      "provider": "Google",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e7765622e617070"
+    },
+    {
+      "domain": "*.firebaseapp.com",
+      "tags": [
+        "Phishing",
+        "C&C"
+      ],
+      "provider": "Google",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e66697265626173656170702e636f6d"
+    },
+    {
+      "domain": "*.webflow.io",
+      "tags": [
+        "Phishing"
+      ],
+      "provider": "Webflow",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e776562666c6f772e696f"
+    },
+    {
+      "domain": "icloud.com",
+      "tags": [
+        "Phishing",
+        "Download",
+        "Exfiltration"
+      ],
+      "provider": "Apple",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/69636c6f75642e636f6d"
+    },
+    {
+      "domain": "*.duckdns.org",
+      "tags": [
+        "Phishing",
+        "C&C"
+      ],
+      "provider": "DuckDNS",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e6475636b646e732e6f7267"
+    },
+    {
+      "domain": "*.pages.dev",
+      "tags": [
+        "Phishing"
+      ],
+      "provider": "Cloudflare",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e70616765732e646576"
+    },
+    {
+      "domain": "googleweblight.com",
+      "tags": [
+        "Phishing",
+        "Download"
+      ],
+      "provider": "Google",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/676f6f676c657765626c696768742e636f6d"
+    },
+    {
+      "domain": "forms.office.com",
+      "tags": [
+        "Phishing"
+      ],
+      "provider": "Microsoft",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/666f726d732e6f66666963652e636f6d"
+    },
+    {
+      "domain": "sway.office.com",
+      "tags": [
+        "Phishing"
+      ],
+      "provider": "Microsoft",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/737761792e6f66666963652e636f6d"
+    },
+    {
+      "domain": "discord.com",
+      "tags": [
+        "C&C",
+        "Exfiltration"
+      ],
+      "provider": "Discord",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/646973636f72642e636f6d"
+    },
+    {
+      "domain": "slack.com",
+      "tags": [
+        "C&C"
+      ],
+      "provider": "Slack",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/736c61636b2e636f6d"
+    },
+    {
+      "domain": "api.telegram.org",
+      "tags": [
+        "C&C",
+        "Exfiltration"
+      ],
+      "provider": "Telegram",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/6170692e74656c656772616d2e6f7267"
+    },
+    {
+      "domain": "*.gofile.io",
+      "tags": [
+        "Phishing",
+        "Exfiltration",
+        "Download"
+      ],
+      "provider": "Gofile",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e676f66696c652e696f"
+    },
+    {
+      "domain": "*.instagram.com",
+      "tags": [
+        "Phishing",
+        "C&C"
+      ],
+      "provider": "Facebook",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e696e7374616772616d2e636f6d"
+    },
+    {
+      "domain": "facebook.com",
+      "tags": [
+        "C&C"
+      ],
+      "provider": "Facebook",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/66616365626f6f6b2e636f6d"
+    },
+    {
+      "domain": "*.glitch.me",
+      "tags": [
+        "Phishing",
+        "Download"
+      ],
+      "provider": "Glitch",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e676c697463682e6d65"
+    },
+    {
+      "domain": "bit.ly",
+      "tags": [
+        "Phishing",
+        "Download"
+      ],
+      "provider": "Bitly Inc.",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/6269742e6c79"
+    },
+    {
+      "domain": "*.trycloudflare.com",
+      "tags": [
+        "Phishing",
+        "Download"
+      ],
+      "provider": "Cloudflare",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e747279636c6f7564666c6172652e636f6d"
+    },
+    {
+      "domain": "beautiful.ai",
+      "tags": [
+        "Phishing"
+      ],
+      "provider": "Beautiful.ai",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/62656175746966756c2e6169"
+    },
+    {
+      "domain": "siasky.net",
+      "tags": [
+        "Phishing",
+        "Exfiltration",
+        "Download"
+      ],
+      "provider": "Siasky",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/736961736b792e6e6574"
+    },
+    {
+      "domain": "*.clickfunnels.com",
+      "tags": [
+        "Phishing"
+      ],
+      "provider": "ClickFunnels",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e636c69636b66756e6e656c732e636f6d"
+    },
+    {
+      "domain": "*.docusign.com",
+      "tags": [
+        "Phishing"
+      ],
+      "provider": "DocuSign",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e646f63757369676e2e636f6d"
+    },
+    {
+      "domain": "*.digitaloceanspaces.com",
+      "tags": [
+        "Phishing",
+        "Download",
+        "Exfiltration",
+        "C&C"
+      ],
+      "provider": "DigitalOcean",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e6469676974616c6f6365616e7370616365732e636f6d"
+    },
+    {
+      "domain": "*.godaddysites.com",
+      "tags": [
+        "Phishing",
+        "C&C"
+      ],
+      "provider": "GoDaddy",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e676f646164647973697465732e636f6d"
+    },
+    {
+      "domain": "*.weebly.com",
+      "tags": [
+        "Phishing",
+        "C&C"
+      ],
+      "provider": "Weebly",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e776565626c792e636f6d"
+    },
+    {
+      "domain": "www.canva.com",
+      "tags": [
+        "Phishing"
+      ],
+      "provider": "Canva",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/7777772e63616e76612e636f6d"
+    },
+    {
+      "domain": "t.co",
+      "tags": [
+        "Phishing",
+        "C&C"
+      ],
+      "provider": "Twitter",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/742e636f"
+    },
+    {
+      "domain": "*.mybluemix.net",
+      "tags": [
+        "Phishing",
+        "Download",
+        "C&C"
+      ],
+      "provider": "IBM",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e6d79626c75656d69782e6e6574"
+    },
+    {
+      "domain": "appdomain.cloud",
+      "tags": [
+        "Phishing",
+        "Download",
+        "C&C",
+        "Exfiltration"
+      ],
+      "provider": "IBM",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/617070646f6d61696e2e636c6f7564"
+    },
+    {
+      "domain": "archive.org",
+      "tags": [
+        "Phishing",
+        "Download"
+      ],
+      "provider": "Archive.org",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/617263686976652e6f7267"
+    },
+    {
+      "domain": "spark.adobe.com",
+      "tags": [
+        "Phishing",
+        "C&C"
+      ],
+      "provider": "Adobe",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/737061726b2e61646f62652e636f6d"
+    },
+    {
+      "domain": "*.atlassian.net",
+      "tags": [
+        "Phishing",
+        "C&C"
+      ],
+      "provider": "Atlassian",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e61746c61737369616e2e6e6574"
+    },
+    {
+      "domain": "dogechain.info",
+      "tags": [
+        "C&C"
+      ],
+      "provider": "Dogechain.info",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/646f6765636861696e2e696e666f"
+    },
+    {
+      "domain": "paste.ee",
+      "tags": [
+        "C&C",
+        "Exfiltration",
+        "Download"
+      ],
+      "provider": "Paste.ee",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/70617374652e6565"
+    },
+    {
+      "domain": "gitee.com",
+      "tags": [
+        "C&C",
+        "Download"
+      ],
+      "provider": "Gitee.com",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/67697465652e636f6d"
+    },
+    {
+      "domain": "*.rf.gd",
+      "tags": [
+        "Phishing",
+        "C&C"
+      ],
+      "provider": "InfinityFree",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e72662e6764"
+    },
+    {
+      "domain": "viewer.joomag.com",
+      "tags": [
+        "Phishing"
+      ],
+      "provider": "Joomag",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/7669657765722e6a6f6f6d61672e636f6d"
+    },
+    {
+      "domain": "my.visme.co",
+      "tags": [
+        "Phishing"
+      ],
+      "provider": "Visme",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/6d792e7669736d652e636f"
+    },
+    {
+      "domain": "archive.ph",
+      "tags": [
+        "Phishing",
+        "Download"
+      ],
+      "provider": "Archive.ph",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/617263686976652e7068"
+    },
+    {
+      "domain": "docsend.com",
+      "tags": [
+        "Phishing"
+      ],
+      "provider": "Docsend",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/646f6373656e642e636f6d"
+    },
+    {
+      "domain": "*.nimbusweb.me",
+      "tags": [
+        "Phishing"
+      ],
+      "provider": "Nimbus Note",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e6e696d6275737765622e6d65"
+    },
+    {
+      "domain": "*.oraclecloud.com",
+      "tags": [
+        "Phishing",
+        "Exfiltration",
+        "Download",
+        "C&C"
+      ],
+      "provider": "Oracle",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e6f7261636c65636c6f75642e636f6d"
+    },
+    {
+      "domain": "*.azurefd.net",
+      "tags": [
+        "Phishing",
+        "C&C"
+      ],
+      "provider": "Microsoft",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e617a75726566642e6e6574"
+    },
+    {
+      "domain": "parg.co",
+      "tags": [
+        "Phishing",
+        "Download"
+      ],
+      "provider": "Parg.co",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/706172672e636f"
+    },
+    {
+      "domain": "*.ngrok.io",
+      "tags": [
+        "Phishing",
+        "C&C",
+        "Exfiltration",
+        "Download"
+      ],
+      "provider": "Ngrok",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e6e67726f6b2e696f"
+    },
+    {
+      "domain": "codepen.io",
+      "tags": [
+        "C&C",
+        "Download"
+      ],
+      "provider": "CodePen",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/636f646570656e2e696f"
+    },
+    {
+      "domain": "pastetext.net",
+      "tags": [
+        "Download"
+      ],
+      "provider": "Pastetext.net",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/7061737465746578742e6e6574"
+    },
+    {
+      "domain": "notion.so",
+      "tags": [
+        "Phishing",
+        "C&C",
+        "Exfiltration",
+        "Download"
+      ],
+      "provider": "Notion.so",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/6e6f74696f6e2e736f"
+    },
+    {
+      "domain": "*.wixsite.com",
+      "tags": [
+        "Phishing"
+      ],
+      "provider": "Wix",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e776978736974652e636f6d"
+    },
+    {
+      "domain": "attachment.outlook.live.net",
+      "tags": [
+        "Phishing",
+        "Download",
+        "Exfiltration"
+      ],
+      "provider": "Microsoft",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/6174746163686d656e742e6f75746c6f6f6b2e6c6976652e6e6574"
+    },
+    {
+      "domain": "attachments.office.net",
+      "tags": [
+        "Phishing",
+        "Download",
+        "Exfiltration"
+      ],
+      "provider": "Microsoft",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/6174746163686d656e74732e6f66666963652e6e6574"
+    },
+    {
+      "domain": "lnkd.in",
+      "tags": [
+        "Phishing",
+        "Download"
+      ],
+      "provider": "Microsoft",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/6c6e6b642e696e"
+    },
+    {
+      "domain": "*.myportfolio.com",
+      "tags": [
+        "Phishing"
+      ],
+      "provider": "Adobe",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e6d79706f7274666f6c696f2e636f6d"
+    },
+    {
+      "domain": "*.notion.site",
+      "tags": [
+        "Phishing",
+        "Download"
+      ],
+      "provider": "Notion.so",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e6e6f74696f6e2e73697465"
+    },
+    {
+      "domain": "*.wasabisys.com",
+      "tags": [
+        "Phishing",
+        "C&C",
+        "Exfiltration",
+        "Download"
+      ],
+      "provider": "Wasabi Technologies",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e7761736162697379732e636f6d"
+    },
+    {
+      "domain": "rebrand.ly",
+      "tags": [
+        "Phishing",
+        "Download"
+      ],
+      "provider": "Rebrandly",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/72656272616e642e6c79"
+    },
+    {
+      "domain": "rb.gy",
+      "tags": [
+        "Phishing",
+        "Download"
+      ],
+      "provider": "Rebrandly",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/72622e6779"
+    },
+    {
+      "domain": "genius.com",
+      "tags": [
+        "C&C"
+      ],
+      "provider": "Genius",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/67656e6975732e636f6d"
+    },
+    {
+      "domain": "inmotionhosting.com",
+      "tags": [
+        "Phishing",
+        "C&C",
+        "Exfiltration",
+        "Download"
+      ],
+      "provider": "InMotion Hosting",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/696e6d6f74696f6e686f7374696e672e636f6d"
+    },
+    {
+      "domain": "stonly.com",
+      "tags": [
+        "Phishing"
+      ],
+      "provider": "Stonly",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/73746f6e6c792e636f6d"
+    },
+    {
+      "domain": "*.csb.app",
+      "tags": [
+        "Phishing"
+      ],
+      "provider": "CodeSandbox",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e6373622e617070"
+    },
+    {
+      "domain": "*.codesandbox.io",
+      "tags": [
+        "Phishing"
+      ],
+      "provider": "CodeSandbox",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e636f646573616e64626f782e696f"
+    },
+    {
+      "domain": "*.000webhostapp.com",
+      "tags": [
+        "Phishing",
+        "C&C",
+        "Exfiltration",
+        "Download"
+      ],
+      "provider": "Hostinger",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e303030776562686f73746170702e636f6d"
+    },
+    {
+      "domain": "*.hostingerapp.com",
+      "tags": [
+        "Phishing",
+        "C&C",
+        "Exfiltration",
+        "Download"
+      ],
+      "provider": "Hostinger",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e686f7374696e6765726170702e636f6d"
+    },
+    {
+      "domain": "feedproxy.google.com",
+      "tags": [
+        "Phishing"
+      ],
+      "provider": "Google",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/6665656470726f78792e676f6f676c652e636f6d"
+    },
+    {
+      "domain": "*.pagecloud.com",
+      "tags": [
+        "Phishing"
+      ],
+      "provider": "PageCloud",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e70616765636c6f75642e636f6d"
+    },
+    {
+      "domain": "*.format.com",
+      "tags": [
+        "Phishing"
+      ],
+      "provider": "Format",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e666f726d61742e636f6d"
+    },
+    {
+      "domain": "s.id",
+      "tags": [
+        "Phishing",
+        "Download"
+      ],
+      "provider": "s.id",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/732e6964"
+    },
+    {
+      "domain": "doc.clickup.com",
+      "tags": [
+        "Phishing"
+      ],
+      "provider": "ClickUp",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/646f632e636c69636b75702e636f6d"
+    },
+    {
+      "domain": "ufile.io",
+      "tags": [
+        "Phishing",
+        "Exfiltration",
+        "Download"
+      ],
+      "provider": "Ufile",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/7566696c652e696f"
+    },
+    {
+      "domain": "onenoteonlinesync.onenote.com",
+      "tags": [
+        "Phishing",
+        "Download",
+        "Exfiltration"
+      ],
+      "provider": "Microsoft",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/6f6e656e6f74656f6e6c696e6573796e632e6f6e656e6f74652e636f6d"
+    },
+    {
+      "domain": "12ft.io",
+      "tags": [
+        "Phishing"
+      ],
+      "provider": "12ft.io",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/313266742e696f"
+    },
+    {
+      "domain": "*.doubleclick.net",
+      "tags": [
+        "Phishing",
+        "Download"
+      ],
+      "provider": "Google",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e646f75626c65636c69636b2e6e6574"
+    },
+    {
+      "domain": "t.m1.email.samsung.com",
+      "tags": [
+        "Phishing",
+        "Download"
+      ],
+      "provider": "Samsung",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/742e6d312e656d61696c2e73616d73756e672e636f6d"
+    },
+    {
+      "domain": "*.repl.co",
+      "tags": [
+        "Phishing",
+        "C&C",
+        "Exfiltration",
+        "Download"
+      ],
+      "provider": "Replit",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e7265706c2e636f"
+    },
+    {
+      "domain": "teletype.in",
+      "tags": [
+        "Phishing"
+      ],
+      "provider": "Teletype",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/74656c65747970652e696e"
+    },
+    {
+      "domain": "*.easywp.com",
+      "tags": [
+        "Phishing"
+      ],
+      "provider": "EasyWP",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e6561737977702e636f6d"
+    },
+    {
+      "domain": "telegra.ph",
+      "tags": [
+        "Phishing"
+      ],
+      "provider": "Telegraph",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/74656c656772612e7068"
+    },
+    {
+      "domain": "filebin.net",
+      "tags": [
+        "Phishing",
+        "Exfiltration",
+        "Download"
+      ],
+      "provider": "Filebin",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/66696c6562696e2e6e6574"
+    },
+    {
+      "domain": "*.fyi.to",
+      "tags": [
+        "Phishing"
+      ],
+      "provider": "FYI.to",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e6679692e746f"
+    },
+    {
+      "domain": "nt.embluemail.com",
+      "tags": [
+        "Phishing",
+        "Download"
+      ],
+      "provider": "emBlue",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/6e742e656d626c75656d61696c2e636f6d"
+    },
+    {
+      "domain": "transfer.sh",
+      "tags": [
+        "Phishing",
+        "Exfiltration",
+        "Download"
+      ],
+      "provider": "Transfer.sh",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/7472616e736665722e7368"
+    },
+    {
+      "domain": "ct.sendgrid.net",
+      "tags": [
+        "Phishing",
+        "Download"
+      ],
+      "provider": "SendGrid",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/63742e73656e64677269642e6e6574"
+    },
+    {
+      "domain": "nethunt.com",
+      "tags": [
+        "Phishing"
+      ],
+      "provider": "NetHunt",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/6e657468756e742e636f6d"
+    },
+    {
+      "domain": "trello.com",
+      "tags": [
+        "Phishing",
+        "Download",
+        "Exfiltration"
+      ],
+      "provider": "Trello",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/7472656c6c6f2e636f6d"
+    },
+    {
+      "domain": "evernote.com",
+      "tags": [
+        "Phishing",
+        "Exfiltration",
+        "Download"
+      ],
+      "provider": "Evernote",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/657665726e6f74652e636f6d"
+    },
+    {
+      "domain": "track.adform.net",
+      "tags": [
+        "Phishing",
+        "Download"
+      ],
+      "provider": "Adform",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/747261636b2e6164666f726d2e6e6574"
+    },
+    {
+      "domain": "*.xiti.com",
+      "tags": [
+        "Phishing",
+        "Download"
+      ],
+      "provider": "Xiti",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e786974692e636f6d"
+    },
+    {
+      "domain": "wtools.io",
+      "tags": [
+        "Download"
+      ],
+      "provider": "WTOOLS",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/77746f6f6c732e696f"
+    },
+    {
+      "domain": "i.imgur.com",
+      "tags": [
+        "Download"
+      ],
+      "provider": "Imgur",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/692e696d6775722e636f6d"
+    },
+    {
+      "domain": "workflowy.com",
+      "tags": [
+        "Phishing"
+      ],
+      "provider": "WorkFlowy",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/776f726b666c6f77792e636f6d"
+    },
+    {
+      "domain": "*.mybluehost.me",
+      "tags": [
+        "Phishing",
+        "C&C",
+        "Download",
+        "Exfiltration"
+      ],
+      "provider": "Bluehost",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e6d79626c7565686f73742e6d65"
+    },
+    {
+      "domain": "*.ondigitalocean.app",
+      "tags": [
+        "Phishing",
+        "C&C"
+      ],
+      "provider": "DigitalOcean",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e6f6e6469676974616c6f6365616e2e617070"
+    },
+    {
+      "domain": "*.axshare.com",
+      "tags": [
+        "Phishing",
+        "C&C"
+      ],
+      "provider": "Axure",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e617873686172652e636f6d"
+    },
+    {
+      "domain": "rentry.co",
+      "tags": [
+        "Exfiltration",
+        "C&C",
+        "Download"
+      ],
+      "provider": "Rentry.co",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/72656e7472792e636f"
+    },
+    {
+      "domain": "zerobin.net",
+      "tags": [
+        "Exfiltration",
+        "C&C",
+        "Download"
+      ],
+      "provider": "ZeroBin",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/7a65726f62696e2e6e6574"
+    },
+    {
+      "domain": "textbin.net",
+      "tags": [
+        "Exfiltration",
+        "C&C",
+        "Download"
+      ],
+      "provider": "TextBin",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/7465787462696e2e6e6574"
+    },
+    {
+      "domain": "ideone.com",
+      "tags": [
+        "Exfiltration",
+        "C&C",
+        "Download"
+      ],
+      "provider": "Ideone.com",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/6964656f6e652e636f6d"
+    },
+    {
+      "domain": "4sync.com",
+      "tags": [
+        "Download"
+      ],
+      "provider": "4Sync",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/3473796e632e636f6d"
+    },
+    {
+      "domain": "pastebin.pl",
+      "tags": [
+        "Exfiltration",
+        "C&C",
+        "Download"
+      ],
+      "provider": "Pastebin.pl",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/706173746562696e2e706c"
+    },
+    {
+      "domain": "www.uplooder.net",
+      "tags": [
+        "Phishing",
+        "Download",
+        "Exfiltration"
+      ],
+      "provider": "Uplooder",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/7777772e75706c6f6f6465722e6e6574"
+    },
+    {
+      "domain": "graph.microsoft.com",
+      "tags": [
+        "C&C",
+        "Exfiltration"
+      ],
+      "provider": "Microsoft",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/67726170682e6d6963726f736f66742e636f6d"
+    },
+    {
+      "domain": "pastie.org",
+      "tags": [
+        "Exfiltration",
+        "C&C",
+        "Download"
+      ],
+      "provider": "Pastie.org",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/7061737469652e6f7267"
+    },
+    {
+      "domain": "*.slab.com",
+      "tags": [
+        "Phishing"
+      ],
+      "provider": "Slab",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e736c61622e636f6d"
+    },
+    {
+      "domain": "*.dropmark.com",
+      "tags": [
+        "Phishing"
+      ],
+      "provider": "Dropmark",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e64726f706d61726b2e636f6d"
+    },
+    {
+      "domain": "filecloudonline.com",
+      "tags": [
+        "Phishing",
+        "Download"
+      ],
+      "provider": "FileCloud",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/66696c65636c6f75646f6e6c696e652e636f6d"
+    },
+    {
+      "domain": "tinyurl.com",
+      "tags": [
+        "Phishing",
+        "Download"
+      ],
+      "provider": "TinyURL",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/74696e7975726c2e636f6d"
+    },
+    {
+      "domain": "*.azurestaticapps.net",
+      "tags": [
+        "Phishing",
+        "C&C",
+        "Download"
+      ],
+      "provider": "Microsoft",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e617a757265737461746963617070732e6e6574"
+    },
+    {
+      "domain": "termbin.com",
+      "tags": [
+        "C&C",
+        "Exfiltration",
+        "Download"
+      ],
+      "provider": "Termbin",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/7465726d62696e2e636f6d"
+    },
+    {
+      "domain": "sprunge.us",
+      "tags": [
+        "C&C",
+        "Exfiltration",
+        "Download"
+      ],
+      "provider": "Sprunge",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/737072756e67652e7573"
+    },
+    {
+      "domain": "*.plesk.page",
+      "tags": [
+        "Phishing",
+        "C&C",
+        "Exfiltration",
+        "Download"
+      ],
+      "provider": "Plesk",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e706c65736b2e70616765"
+    },
+    {
+      "domain": "cutt.ly",
+      "tags": [
+        "Phishing",
+        "Download"
+      ],
+      "provider": "Cutt.ly",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/637574742e6c79"
+    },
+    {
+      "domain": "*.on.aws",
+      "tags": [
+        "C&C"
+      ],
+      "provider": "Amazon",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e6f6e2e617773"
+    },
+    {
+      "domain": "*.mystrikingly.com",
+      "tags": [
+        "Phishing",
+        "C&C"
+      ],
+      "provider": "Strikingly",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e6d79737472696b696e676c792e636f6d"
+    },
+    {
+      "domain": "www.surveycake.com",
+      "tags": [
+        "Phishing"
+      ],
+      "provider": "SurveyCake",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/7777772e73757276657963616b652e636f6d"
+    },
+    {
+      "domain": "anonfiles.com",
+      "tags": [
+        "Phishing",
+        "Exfiltration",
+        "Download"
+      ],
+      "provider": "Anonfiles",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/616e6f6e66696c65732e636f6d"
+    },
+    {
+      "domain": "*.linodeobjects.com",
+      "tags": [
+        "Phishing",
+        "Exfiltration",
+        "Download"
+      ],
+      "provider": "Linode",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e6c696e6f64656f626a656374732e636f6d"
+    },
+    {
+      "domain": "express.adobe.com",
+      "tags": [
+        "Phishing"
+      ],
+      "provider": "Adobe",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/657870726573732e61646f62652e636f6d"
+    },
+    {
+      "domain": "*.fleek.co",
+      "tags": [
+        "Phishing"
+      ],
+      "provider": "Fleek",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e666c65656b2e636f"
+    },
+    {
+      "domain": "localhost.run",
+      "tags": [
+        "C&C"
+      ],
+      "provider": "Localhost.run",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/6c6f63616c686f73742e72756e"
+    },
+    {
+      "domain": "*.requestbin.net",
+      "tags": [
+        "C&C"
+      ],
+      "provider": "RequestBin",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/2a2e7265717565737462696e2e6e6574"
+    },
+    {
+      "domain": "clbin.com",
+      "tags": [
+        "C&C",
+        "Exfiltration",
+        "Download"
+      ],
+      "provider": "Clbin",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/636c62696e2e636f6d"
+    },
+    {
+      "domain": "ix.io",
+      "tags": [
+        "C&C",
+        "Exfiltration",
+        "Download"
+      ],
+      "provider": "Ix.io",
+      "archive_url": "https://web.archive.org/web/20261006184331/https://lots-project.com/site/69782e696f"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+# Generated site and test output
+/dist/
+/coverage/
+/.nyc_output/
+
+# Node dependencies and caches
+node_modules/
+.npm/
+.cache/
+*.tsbuildinfo
+
+# Python environments and bytecode
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Logs and temporary files
+*.log
+*.pid
+*.pid.lock
+*.tmp
+*.swp
+*.swo
+*~
+
+# Editor settings
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# macOS and Windows metadata
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# Saved source archives (normalized data stays in data/)
+/*.zip

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A searchable Living Off Trusted Sites reference with archived entries and independently sourced research for defenders.">
+  <meta name="color-scheme" content="light dark">
+  <title>LOTS — Living Off Trusted Sites reference</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='6' fill='%23222222'/%3E%3Ctext x='9' y='29' fill='white' font-family='monospace' font-size='27'%3EL%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./app.js" type="module"></script>
+</head>
+<body>
+<a class="skip" href="#catalog">Skip to domain index</a>
+<header id="top"><div class="header-inner"><a href="./" class="wordmark" aria-label="LOTS home">LOTS <span class="archive-label">reference</span></a><nav aria-label="Main navigation"><a href="#catalog">Index</a><a href="#about">About</a><a href="./data/catalog.json" download>JSON</a><button id="theme" aria-label="Switch color theme" title="Switch color theme" hidden>Theme</button></nav></div></header>
+<main>
+  <section class="intro" aria-labelledby="title">
+    <h1 id="title">Living Off Trusted Sites</h1>
+    <p class="description">Legitimate services documented in phishing, command &amp; control, exfiltration, and tool delivery. Based on the LOTS archive, with independently sourced additions for defenders.</p>
+
+  </section>
+  <section id="catalog" aria-labelledby="catalog-title">
+    <div class="section-top"><h2 id="catalog-title" class="sr-only">Domain index</h2><span class="snapshot">175 archived entries · {{RESEARCH_COUNT}} new additions reviewed <time datetime="2026-10-28">October 28, 2026</time></span></div>
+    <div class="categories" aria-label="Filter by abuse tag"><!-- CATEGORIES --></div>
+    <div class="controls" id="controls" hidden><div class="search-wrap"><label class="sr-only" for="search">Search domains, tags, or providers</label><input id="search" type="search" placeholder="Search domains, +phishing, or #microsoft" autocomplete="off" spellcheck="false" aria-describedby="search-help"></div><label class="sr-only" for="provider">Filter by service provider</label><select id="provider"><option value="">All providers</option><!-- PROVIDERS --></select><label class="sr-only" for="origin">Filter by dataset</label><select id="origin"><option value="">All entries</option><option value="archive">Original archive</option><option value="research">New additions</option></select><label class="sr-only" for="scope">Filter by entry type</label><select id="scope"><option value="all">All entry types</option><option value="hostname">Hostnames</option><option value="subdomains">Subdomains</option></select><button id="reset" type="button">Reset</button></div>
+    <p id="search-help" class="search-help">Combine terms to narrow results: <a href="./?q=%2Bphishing%20%23microsoft" data-example="+phishing #microsoft"><code>+phishing #microsoft</code></a> · Click any tag or provider to filter.</p>
+    <div class="results-meta"><p id="count" role="status" aria-live="polite">{{COUNT}} domains</p><div class="export-links"><button id="export" hidden>Export results</button><a href="./data/lots.csv" download>Full CSV</a></div></div>
+    <div class="table-wrap"><table><thead><tr><th scope="col" aria-sort="ascending"><button id="sort" type="button" hidden>Domain <span id="sort-arrow" aria-hidden="true">↑</span></button><span id="static-heading">Domain</span></th><th scope="col">Abuse tags</th><th scope="col"><button id="sort-provider" type="button" hidden>Service provider <span aria-hidden="true">↕</span></button><span id="static-provider">Service provider</span></th></tr></thead><tbody id="rows"><!-- ROWS --></tbody></table><div id="empty" hidden><strong>No matching domains</strong><p>Try a shorter domain or reset your filters.</p></div></div>
+    <p class="table-note"><span>*</span> An asterisk marks a subdomain entry. Tags describe documented abuse of a service, not every URL it hosts. Presence here does not mean a domain is malicious.</p>
+    <noscript><p>All records and their detail pages work without JavaScript. Enable JavaScript for search and filters. The combined index is also available as <a href="./data/catalog.json">JSON</a>.</p></noscript>
+  </section>
+  <section id="about" class="about"><div><h2>Sources and scope</h2></div><div><p>This independent reconstruction preserves the LOTS domain index in a simple, searchable format inspired by <a href="https://lolbas-project.github.io/">LOLBAS</a>. Credit for the original Living Off Trusted Sites project belongs to <a href="https://mrd0x.com/">mrd0x</a> and its contributors.</p><p>All 175 domains, original abuse tags, and 123 service providers were recovered directly from the saved <a href="https://web.archive.org/web/20261006184331/https://lots-project.com/">October 6, 2026 Wayback snapshot</a>. Provider names and tags are preserved as published. Each record links to the original LOTS detail page on Wayback; those detail pages were not included in the saved archive and may not be available.</p><p>Entries marked “new” were added to this reference and are supported by linked primary reports. “New” refers to inclusion here, not when the abuse began. Each includes publication dates, the reported activity window, review date, and hunting ideas. A review date is not a last-seen timestamp. These entries do not claim ongoing malicious use today.</p><p>Use the index for investigation, not as a blanket blocklist. <a href="./data/lots.json" download>Original archive JSON</a> · <a href="./data/research.json" download>Research JSON</a> · <a href="./THIRD_PARTY_DATA.md">Data provenance and licensing</a>. Original code and independently written notes use the <a href="./LICENSE">MIT license</a>; the inherited LOTS dataset has no identified license.</p></div></section>
+</main>
+<footer><span><strong>LOTS</strong> / Living Off Trusted Sites</span><a href="#top">Back to top</a></footer>
+<dialog id="detail" aria-labelledby="detail-title"><div class="dialog-top"><span>Domain details</span><button id="close" aria-label="Close domain record">×</button></div><h2 id="detail-title"></h2><dl><dt>Entry type</dt><dd id="detail-scope"></dd><dt>Provider</dt><dd id="detail-provider"></dd><dt>Tags</dt><dd id="detail-tags" class="tags"></dd><dt>Source</dt><dd id="detail-source"></dd></dl><p class="detail-note">Inclusion means the service has been documented in an abuse chain. It does not mean every URL or account on the service is malicious.</p><p class="detail-note" id="archive-note">Full original detail pages were not included in the saved ZIP. The source link opens Wayback; availability may vary.</p><section id="research-detail" hidden><p id="detail-summary"></p><h3>Evidence</h3><ul id="detail-evidence"></ul><p id="detail-window"></p><p id="detail-basis"></p><p id="detail-activity"></p><h3>Hunting ideas</h3><p>Analyst hypotheses; not tested detection rules.</p><ul id="detail-hunts"></ul></section><div class="dialog-actions"><button id="copy">Copy domain</button><a id="archive-link" target="_blank" rel="noopener noreferrer">Original LOTS detail page</a></div><p id="copy-status" role="status"></p></dialog>
+<!-- RECORD_DATA -->
+</body>
+</html>

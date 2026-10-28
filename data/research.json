@@ -1,0 +1,265 @@
+{
+  "name": "Independently researched LOTS additions",
+  "reviewed_on": "2026-10-28",
+  "policy": "Primary-source documented abuse, not a live IOC feed. Hunting notes are analyst hypotheses and have not been tested as detections.",
+  "records": [
+    {
+      "domain": "*.vercel.app",
+      "provider": "Vercel",
+      "tags": [
+        "Phishing",
+        "Download"
+      ],
+      "origin": "research",
+      "reviewed_on": "2026-10-28",
+      "activity_status": "Documented abuse; current activity not verified",
+      "observed_window": "November 2025–January 2026, as stated in the report.",
+      "domain_basis": "Reported hostname examples generalized to this service suffix.",
+      "summary": "Cloudflare documented financial lures and conditional delivery of legitimate remote-access software for unauthorized access. A Vercel-hosted lure does not mean Vercel provides the subsequent remote-control channel.",
+      "hunting_notes": [
+        "Review new Vercel destinations reached from email, then correlate downloads with new remote-access software execution.",
+        "Retain the full tenant hostname and redirect chain; provider reputation alone cannot distinguish a malicious deployment."
+      ],
+      "sources": [
+        {
+          "title": "Vercel-hosted RMM abuse campaign evolves with Telegram C2 for victim filtering",
+          "publisher": "Cloudflare Cloudforce One",
+          "published": "2026-01-20",
+          "url": "https://www.cloudflare.com/cloudforce-one/research/report/vercel-hosted-rmm-abuse-campaign-evolves-with-telegram-c2-for-victim-filtering/",
+          "supported_tags": [
+            "Phishing",
+            "Download"
+          ]
+        }
+      ]
+    },
+    {
+      "domain": "*.lovable.app",
+      "provider": "Lovable",
+      "tags": [
+        "Phishing"
+      ],
+      "origin": "research",
+      "reviewed_on": "2026-10-28",
+      "activity_status": "Documented abuse; current activity not verified",
+      "observed_window": "Activity discussed from February–July 2025; concrete example URLs dated June–July 2025.",
+      "domain_basis": "Reported hostname examples generalized to this service suffix.",
+      "summary": "Proofpoint documented impersonation and credential-phishing pages built and hosted with Lovable. Some pages redirected to later download stages; this entry does not infer that Lovable hosted those payload bytes.",
+      "hunting_notes": [
+        "Review unexpected email-to-Lovable navigation followed by credential entry or onward redirects.",
+        "Inspect the published app URL and destination chain rather than treating use of an AI website builder as a malicious signal."
+      ],
+      "sources": [
+        {
+          "title": "Cybercriminals Abuse AI Website Creation App For Phishing",
+          "publisher": "Proofpoint",
+          "published": "2025-08-20",
+          "url": "https://www.proofpoint.com/us/blog/threat-insight/cybercriminals-abuse-ai-website-creation-app-phishing",
+          "supported_tags": [
+            "Phishing"
+          ]
+        }
+      ]
+    },
+    {
+      "domain": "*.r2.dev",
+      "provider": "Cloudflare",
+      "tags": [
+        "Download"
+      ],
+      "origin": "research",
+      "reviewed_on": "2026-10-28",
+      "activity_status": "Documented abuse; current activity not verified",
+      "observed_window": "Case dates not specified; published September 12, 2025.",
+      "domain_basis": "Reported hostname examples generalized to this service suffix.",
+      "summary": "Zscaler and Red Canary described invitation-themed emails delivering unauthorized RMM installers from public Cloudflare R2 buckets. The documented role here is file delivery, not R2 acting as the RMM command channel.",
+      "hunting_notes": [
+        "Correlate R2 downloads of executables or installers with email-originated browser sessions and subsequent installer or RMM execution.",
+        "Group by bucket hostname and object path; a match to the suffix alone has substantial legitimate overlap."
+      ],
+      "sources": [
+        {
+          "title": "You’re invited: Four phishing lures in campaigns dropping RMM tools",
+          "publisher": "Zscaler and Red Canary",
+          "published": "2025-09-12",
+          "url": "https://www.zscaler.com/blogs/product-insights/phishing-rmm-tools",
+          "supported_tags": [
+            "Download"
+          ]
+        }
+      ]
+    },
+    {
+      "domain": "*.devtunnels.ms",
+      "provider": "Microsoft",
+      "tags": [
+        "C&C"
+      ],
+      "origin": "research",
+      "reviewed_on": "2026-10-28",
+      "activity_status": "Documented abuse; current activity not verified",
+      "observed_window": "Sample activity dates not specified; published February 27, 2025.",
+      "domain_basis": "Reported hostname examples generalized to this service suffix.",
+      "summary": "SANS analyzed Njrat samples configured to communicate with command servers through Microsoft Dev Tunnels. This is distinct from ordinary developer use of the tunneling service.",
+      "hunting_notes": [
+        "Look for Dev Tunnels connections from unusual processes or endpoints without a developer workflow.",
+        "Correlate tunnel traffic with process ancestry, persistence changes, and the sample behaviors described in the report."
+      ],
+      "sources": [
+        {
+          "title": "Njrat Campaign Using Microsoft Dev Tunnels",
+          "publisher": "SANS Internet Storm Center",
+          "published": "2025-02-27",
+          "url": "https://isc.sans.edu/diary/Njrat%20Campaign%20Using%20Microsoft%20Dev%20Tunnels/31724",
+          "supported_tags": [
+            "C&C"
+          ]
+        }
+      ]
+    },
+    {
+      "domain": "huggingface.co",
+      "provider": "Hugging Face",
+      "tags": [
+        "Download"
+      ],
+      "origin": "research",
+      "reviewed_on": "2026-10-28",
+      "activity_status": "Documented abuse; current activity not verified",
+      "observed_window": "The report includes captured traffic dated November 25, 2025; published January 29, 2026.",
+      "domain_basis": "Exact hostname appears in captured traffic published by Bitdefender.",
+      "summary": "Bitdefender traced an Android malware update flow through a dataset resolve URL to a Hugging Face CDN. The reported malicious datasets were taken down; this is evidence of abuse, not a claim those URLs remain active.",
+      "hunting_notes": [
+        "Review Android APK retrieval through dataset resolve paths, especially following a forced-update prompt in an untrusted app.",
+        "Preserve the repository, revision, redirect destination, and downloaded hash; ordinary model and dataset use is common."
+      ],
+      "sources": [
+        {
+          "title": "Android Trojan Campaign Uses Hugging Face Hosting for RAT Payload Delivery",
+          "publisher": "Bitdefender",
+          "published": "2026-01-29",
+          "url": "https://www.bitdefender.com/en-us/blog/labs/android-trojan-campaign-hugging-face-hosting-rat-payload",
+          "supported_tags": [
+            "Download"
+          ]
+        }
+      ]
+    },
+    {
+      "domain": "cdn-lfs-us-1.hf.co",
+      "provider": "Hugging Face",
+      "tags": [
+        "Download"
+      ],
+      "origin": "research",
+      "reviewed_on": "2026-10-28",
+      "activity_status": "Documented abuse; current activity not verified",
+      "observed_window": "The report includes captured traffic dated November 25, 2025; published January 29, 2026.",
+      "domain_basis": "Exact CDN hostname appears in the published HTTP redirect; no wildcard inference.",
+      "summary": "The same Bitdefender capture shows this exact CDN hostname serving the redirected Android APK. Do not expand this single observation to all hf.co hosts or assume this endpoint is still used today.",
+      "hunting_notes": [
+        "Correlate CDN requests with the preceding Hugging Face repository request and resulting file type.",
+        "A shared CDN address is weak evidence in isolation; retain the object URL and originating application."
+      ],
+      "sources": [
+        {
+          "title": "Android Trojan Campaign Uses Hugging Face Hosting for RAT Payload Delivery",
+          "publisher": "Bitdefender",
+          "published": "2026-01-29",
+          "url": "https://www.bitdefender.com/en-us/blog/labs/android-trojan-campaign-hugging-face-hosting-rat-payload",
+          "supported_tags": [
+            "Download"
+          ]
+        }
+      ]
+    },
+    {
+      "domain": "*.supabase.co",
+      "provider": "Supabase",
+      "tags": [
+        "C&C"
+      ],
+      "origin": "research",
+      "reviewed_on": "2026-10-28",
+      "activity_status": "Documented abuse; current activity not verified",
+      "observed_window": "The report discusses late-2025/early-2026 tooling; exact SupaServ activity dates are not specified.",
+      "domain_basis": "Service-to-domain mapping, not an observed suffix IOC. Supabase documents project APIs at <project_ref>.supabase.co.",
+      "summary": "Bitdefender reported SupaServ exchanging commands and results through Supabase. The report names the service but does not print this suffix; mapping it to project API hostnames uses Supabase documentation and is explicitly an inference.",
+      "hunting_notes": [
+        "Review recurring project API access from unexpected native executables and correlate it with scheduled-task persistence.",
+        "Investigate the specific project and process; Supabase is also used by legitimate applications. Custom domains may not match this suffix."
+      ],
+      "sources": [
+        {
+          "title": "APT36: A Nightmare of Vibeware",
+          "publisher": "Bitdefender",
+          "published": "2026-03-05",
+          "url": "https://www.bitdefender.com/en-us/blog/businessinsights/apt36-nightmare-vibeware",
+          "supported_tags": [
+            "C&C"
+          ]
+        }
+      ],
+      "domain_reference": {
+        "title": "Supabase project API custom domains",
+        "url": "https://supabase.com/docs/guides/platform/custom-domains"
+      }
+    },
+    {
+      "domain": "urldefense.proofpoint.com",
+      "provider": "Proofpoint",
+      "tags": [
+        "Phishing"
+      ],
+      "origin": "research",
+      "reviewed_on": "2026-10-28",
+      "activity_status": "Documented abuse; current activity not verified",
+      "observed_window": "June–July 2025, as stated in the report.",
+      "domain_basis": "Exact wrapper hostname appears in the report’s examples.",
+      "summary": "Cloudflare documented phishing chains using Proofpoint-wrapped links associated with compromised customer accounts. The wrapper was an intermediate redirect, not evidence that Proofpoint hosted the credential-collection page.",
+      "hunting_notes": [
+        "Inspect the final destination and every redirect even when a security-vendor wrapper is present.",
+        "Correlate unexpected wrapped links with sender-account compromise and mailbox activity. Preserve the original message."
+      ],
+      "sources": [
+        {
+          "title": "Attackers abusing Proofpoint & Intermedia link wrapping to deliver phishing payloads",
+          "publisher": "Cloudflare Cloudforce One",
+          "published": "2025-07-30",
+          "url": "https://www.cloudflare.com/threat-intelligence/research/report/attackers-abusing-proofpoint-intermedia-link-wrapping-to-deliver-phishing-payloads/",
+          "supported_tags": [
+            "Phishing"
+          ]
+        }
+      ]
+    },
+    {
+      "domain": "url.emailprotection.link",
+      "provider": "Intermedia",
+      "tags": [
+        "Phishing"
+      ],
+      "origin": "research",
+      "reviewed_on": "2026-10-28",
+      "activity_status": "Documented abuse; current activity not verified",
+      "observed_window": "June–July 2025, as stated in the report.",
+      "domain_basis": "Exact wrapper hostname appears in the report’s examples.",
+      "summary": "Cloudflare documented Intermedia-wrapped links sent through compromised customer accounts. The report says Intermedia itself was not compromised; phishing content was reached after redirection.",
+      "hunting_notes": [
+        "Inspect the destination behind the wrapped link and correlate internal-looking messages with unusual sender behavior.",
+        "Do not equate a wrapper-domain match with an active phishing URL; retain the full message and redirect chain."
+      ],
+      "sources": [
+        {
+          "title": "Attackers abusing Proofpoint & Intermedia link wrapping to deliver phishing payloads",
+          "publisher": "Cloudflare Cloudforce One",
+          "published": "2025-07-30",
+          "url": "https://www.cloudflare.com/threat-intelligence/research/report/attackers-abusing-proofpoint-intermedia-link-wrapping-to-deliver-phishing-payloads/",
+          "supported_tags": [
+            "Phishing"
+          ]
+        }
+      ]
+    }
+  ]
+}

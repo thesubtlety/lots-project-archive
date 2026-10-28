@@ -1,0 +1,11 @@
+{
+  "name": "lots-archive",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node --check src/app.js && node --check src/catalog.mjs && npm run build && node --test",
+    "preview": "python3 -m http.server 8888 --bind 127.0.0.1 --directory dist",
+    "import:archive": "python3 scripts/import-archive.py"
+  }
+}
